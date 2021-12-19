@@ -1,0 +1,118 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	overflow: none
+		
+}
+body{
+	font-family: 'Rubik', sans-serif;
+}
+.banner{
+	background-color: rgb(230,164,101)
+}
+.banner-1{
+	background-color: rgb(255,251,240);
+	padding: 200px 0
+}
+.banner-1-r{
+	padding-top: 200px;
+}
+
+
+.banner-2-l{
+	width: 50%;
+	padding: 200px 0
+}
+.banner-2-r{
+	width: 50%;
+	background: rgb(226,151,80)	;
+	padding: 100px 0
+}
+
+.banner-3-l{
+	width: 50%;
+	background-image: url("../images/kinh-nghiệm-mở-tiệm-bánh-ngọt.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner-3-r{
+	width: 50%;
+	padding: 300px 0
+}
+
+.banner-5{
+	background-image: url("../images/Untitled-14.gif");
+	width: 100%;
+	height: 860px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: rgb(226,151,80);
+	padding-top: 200px;
+}
+
+
+
+
+.button-2{
+	width: 150px;
+	height: 150px;
+	background-color: rgb(255,251,240);
+	border-radius: 50%;
+	margin: 50px auto ;
+}
+.button-2 a{
+	color: black;
+	width: 150px;
+	height: 150px;
+}
+.button-2:hover{
+	background-color: black
+}
+.button-2 a:hover{
+	color: white;
+	font-weight: bold
+}
+
+.banner-8{
+	padding: 200px 0 200px;
+}
+.menu-b a{
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+.menu-b a:hover{
+	color: rgb(226,151,80)
+}
+
+.menu-social a{
+	color: black
+}
+.menu-social a:hover{
+	color: rgb(226,151,80)	
+}
+
+
+@media screen and (max-width:415px){
+	
+	.banner-1-l img{
+		width: 90%;
+	}
+	
+	.banner-2-r img{
+		width: 90%;
+	}
+	
+	
+	.banner-8{
+		padding-left: 100px; 
+	}
+	.add-2{
+		padding: 100px;
+	}
+}
+
+

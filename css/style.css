@@ -1,0 +1,266 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	overflow: none
+		
+}
+body{
+	font-family: 'Rubik', sans-serif;
+}
+.banner{
+	background-color: rgb(230,164,101)
+}
+.banner-1{
+	background-color: rgb(226,151,80);
+	padding-top: 100px;
+}
+
+.button{
+	padding-bottom: 200px;
+	z-index: 2
+}
+.button-1{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	border-radius: 50%;
+	margin: 50px auto ;
+}
+.button-1 a{
+	color: white;
+	width: 150px;
+	height: 150px;
+}
+.button-1:hover{
+	background-color: white
+}
+.button-1 a:hover{
+	color: black;
+	font-weight: bold
+}
+
+.video{
+	top: -325px;
+	margin: 0 auto
+}
+.video video1{
+	max-width: 100%;
+	height: auto;
+}
+.btn-play{
+	margin: 0 auto;
+	top: -380px;
+	z-index: 3
+}
+.btn-play i{
+	font-size: 100px;
+	opacity: 0;
+	color: white
+}
+.btn-play i:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+
+.banner-2{
+	background-color: rgb(255,251,240);
+	padding-bottom: 100px;
+}
+
+.icons img{
+	width: 100px;
+}
+
+
+.img-1 img{
+	width: 560px;
+}
+
+.img-2 img{
+	width: 260px;
+}
+
+.img-3 img{
+	width: 538px;
+}
+.content-b-img{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto
+}
+
+
+.banner-3-l{
+	padding-top: 220px;
+}
+.banner-3-r{
+	background-color: rgb(226,151,80);
+	padding: 120px 0
+}
+
+.banner-4-l img{
+	width: 620px;
+	padding: 120px 0 100px 
+}
+.banner-4-r{
+	background-color: rgb(255,251,240);
+	padding-top: 220px;
+}
+
+.banner-5{
+	background-image: url("../images/Untitled-14.gif");
+	width: 100%;
+	height: 860px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: rgb(226,151,80);
+	padding-top: 200px;
+}
+
+
+
+
+.button-2{
+	width: 150px;
+	height: 150px;
+	background-color: rgb(255,251,240);
+	border-radius: 50%;
+	margin: 50px auto ;
+}
+.button-2 a{
+	color: rgb(226,151,80);
+	width: 150px;
+	height: 150px;
+}
+.button-2:hover{
+	background-color: rgb(226,151,80)
+}
+.button-2 a:hover{
+	color: rgb(255,251,240);
+	font-weight: bold
+}
+
+
+.banner-6{
+	padding: 200px 0;
+	background-color: rgb(255,251,240);
+}
+
+.banner-7{
+	background-color: rgb(226,151,80);
+	padding: 200px 0 100px;
+}
+
+
+.button-3{
+	width: 150px;
+	height: 150px;
+	background-color: white;
+	border-radius: 50%;
+	margin: 50px auto ;
+}
+.button-3 a{
+	color: black;
+	width: 150px;
+	height: 150px;
+}
+.button-3:hover{
+	background-color: black
+}
+.button-3 a:hover{
+	color: white;
+	font-weight: bold
+}
+
+
+.banner-8{
+	padding: 200px 0 200px;
+}
+.menu-b a{
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+.menu-b a:hover{
+	color: rgb(226,151,80)
+}
+
+.menu-social a{
+	color: black
+}
+.menu-social a:hover{
+	color: rgb(226,151,80)	
+}
+
+
+
+
+
+
+@media screen and (max-width:415px){
+	.banner-2-b-l{
+		padding-left: 35px;
+	}
+	.img-1 img{
+		width: 370px;
+	}
+	.img-2 img{
+		width: 370px;
+	}
+	.img-3 img{
+		width: 335px;
+	}
+	
+	
+	.banner-3-r  img{
+		width: 80%
+	}
+	.banner-3-l{
+		padding-bottom: 200px
+	}
+	
+	.banner-4-l img{
+		width: 100%
+	}
+	.banner-4-r{
+		padding: 200px 0
+	}
+	
+	.banner-6-r{
+		padding-top: 200px;
+	}
+	.banner-6-r img{
+		width: 80%
+	}
+	
+	.banner-8{
+		padding-left: 100px; 
+	}
+	.add-2{
+		padding: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
